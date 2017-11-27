@@ -1,0 +1,6 @@
+<h4>Login Form</h4>
+<form [formGroup]="loginForm" (ngSubmit)="authenticate()" >
+  <input formControlName="username" placeholder="enter your username">
+  <input formControlName="password" placeholder="enter password" type="password">
+  <button type="submit" >Login </button>
+</form>
